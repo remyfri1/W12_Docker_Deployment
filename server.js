@@ -6,7 +6,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-res.send('Hello FS2024 DevOps Course done by remy / to make it intersting we have made a couple of changes to this file');
+res.send('Hello FS2024 DevOps Course done by remy / Jobs verknüpfen macht das Leben einfacher');
 });
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
